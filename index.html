@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site daora demais</title>
+</head>
+
+<body>
+    <section id="presentation">
+        <header class="header">
+            <a href="https://www.startse.com/?utm_source=lms" target="_blank">
+                <img src="https://startse-uploader.s3.us-east-2.amazonaws.com/prod/squads/course/6265c29fe3d84d7845d9503f/banner.png?v=b92440ad-88af-4cb9-b60a-f53239c8f2f6"
+                    alt="techacademy">
+            </a>
+            <nav>
+                <a href="#portfolio">Esportes</a>
+                <a href="#futebol">Futebol</a>
+                <a href="#basquetebol">Basquetebol</a>
+                <a href="#ufc">UFC</a>
+                <a href="#volei">Voleibol</a>
+                <a href="#footer">Rodapé</a>
+            </nav>
+        </header>
+        <div class="presentation container">
+            <main>
+                <h1>Olá,<span></span></h1>
+                <h1>Veja qual seu esporte favorito<span></span></h1>
+                <h1>Meu nome é Gleydson<span></span></h1>
+                <a href="#portfolio" type="button" class="cta">Esportes</a>
+            </main>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <main class="portfolio container">
+            <div class="portfolio header">
+                <h1 class="section-title"><span>Esportes</span></h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1 id="futebol">Futebol</h1>
+                        <h2>Já pensou em ser um jogador de futebol?</h2>
+                        <p>É um esporte de equipe jogado entre dois times de 11 jogadores cada um e um
+                            árbitro que se ocupa da correta aplicação das normas. É considerado o esporte
+                            mais popular do mundo, pois cerca de 270 milhões de pessoas participam das suas
+                            várias competições. É jogado num campo retangular gramado, com uma baliza em
+                            cada lado do campo. O objetivo do jogo é deslocar uma bola através do campo
+                            para colocá-la dentro da baliza adversária, ação que se denomina gol. A equipe
+                            que marca mais gols ao término da partida é a vencedora.</p>
+                        <div class="audiolocation">
+                            <audio id="skunk" src="./audio/Skank - É Uma Partida de Futebol.mp3"></audio>
+                            <button class="button" onclick="play1()">
+                                Tocar
+                            </button>
+                            <button class="button" onclick="pause1()">
+                                Parar
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/futebol.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1 id="basquetebol">Basquetebol</h1>
+                        <h2>Que tal uma partida de basquetebol?</h2>
+                        <p>O basquetebol, ou simplesmente basquete, é um esporte coletivo praticado entre
+                            duas equipes. Ele é jogado com uma bola, onde o objetivo é inseri-la no cesto fixo
+                            que está localizado nas extremidades da quadra. Atualmente, o basquetebol é um
+                            dos jogos olímpicos mais populares no mundo. </p>
+                        <div class="audiolocation">
+                            <audio id="basquete" src="./audio/basquetebol.mp3"></audio>
+                            <button class="button" onclick="play2()">
+                                Tocar
+                            </button>
+                            <button class="button" onclick="pause2()">
+                                Parar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/basquetebol.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1 id="ufc">MMA | UFC</h1>
+                        <h2>Lutar ou assistir? Qual vai ser?</h2>
+                        <p> <abbr title="Ultimate Fighting Championship">UFC</abbr> é uma organização
+                            de <abbr title="Artes Marciais Mistas">MMA</abbr> que produz eventos ao
+                            redor de todo o mundo. É a maior e mais popular organização de MMA no mundo,
+                            reconhecida por ter os melhores lutadores do mundo. O UFC possui doze
+                            categorias de peso (oito masculinas e quatro femininas) e mais de quinhentos
+                            lutadores de setenta e um países, tendo realizado mais de quinhentos eventos
+                            desde 1993. Tem sua base atualmente em Las Vegas nos Estados Unidos. Pertence
+                            e é operado pela Zuffa uma subsidiária integral da Grupo Endeavor.</p>
+                        <div class="audiolocation">
+                            <audio id="mma" src="./audio/mma.mp3"></audio>
+                            <button class="button" onclick="play3()">
+                                Tocar
+                            </button>
+                            <button class="button" onclick="pause3()">
+                                Parar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/mma.jpg" alt="img">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1 id="volei">Voleibol</h1>
+                        <h2>Que tal um jogo de voleibol?</h2>
+                        <p>Vôlei é um esporte praticado entre duas equipes numa quadra retangular (aberta
+                            ou fechada). Ela é dividida por uma rede colocada verticalmente sobre a linha
+                            central.O voleibol é jogado com uma bola e inclui diversos passes com as mãos.
+                            O objetivo principal é lançar a bola por cima da rede e fazê-la tocar no chão do
+                            adversário.</p>
+                        <div class="audiolocation">
+                            <audio id="voleibol" src="./audio/voleibol.mp3"></audio>
+                            <button class="button" onclick="play4()">
+                                Tocar
+                            </button>
+                            <button class="button" onclick="pause4()">
+                                Parar
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-img">
+                        <img src="./images/voleibol.jpg" alt="img">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <footer id="footer">
+        <p>Desenvolvido com <span>&#x2764;</span> por <span>
+                <a href="#presentation"><strong>Gleydson</strong></a></span> </p>
+    </footer>
+</body>
+<script>
+    const audio1 = document.querySelector('#skunk');
+    const audio2 = document.querySelector('#basquete');
+    const audio3 = document.querySelector('#mma');
+    const audio4 = document.querySelector('#voleibol');
+    const play1 = () => { audio1.play(); pause2(); pause3(); pause4() };
+    const pause1 = () => { audio1.pause() };
+    const play2 = () => { audio2.play(); pause1(); pause3(); pause4() };
+    const pause2 = () => { audio2.pause() };
+    const play3 = () => { audio3.play(); pause1(); pause2(); pause4() };
+    const pause3 = () => { audio3.pause() };
+    const play4 = () => { audio4.play(); pause1(); pause2(); pause3() };
+    const pause4 = () => { audio4.pause() };
+
+</script>
+
+</html>
